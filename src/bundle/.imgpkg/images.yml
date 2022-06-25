@@ -1,0 +1,25 @@
+---
+apiVersion: imgpkg.carvel.dev/v1alpha1
+images:
+- annotations:
+    kbld.carvel.dev/id: ghcr.io/dexidp/dex:v2.30.2
+    kbld.carvel.dev/origins: |
+      - resolved:
+          tag: v2.30.2
+          url: ghcr.io/dexidp/dex:v2.30.2
+  image: ghcr.io/dexidp/dex@sha256:27cf2e8644f2ea1ebc6de711b0ace4b5ee2d1f442e148eabbaa8c68308062475
+- annotations:
+    kbld.carvel.dev/id: quay.io/argoproj/argocd:v2.4.2
+    kbld.carvel.dev/origins: |
+      - resolved:
+          tag: v2.4.2
+          url: quay.io/argoproj/argocd:v2.4.2
+  image: quay.io/argoproj/argocd@sha256:dd880e1334c177daee70686b7948b8c9b480ffff4e5e94182d825b3b0b9ddf12
+- annotations:
+    kbld.carvel.dev/id: redis:7.0.0-alpine
+    kbld.carvel.dev/origins: |
+      - resolved:
+          tag: 7.0.0-alpine
+          url: redis:7.0.0-alpine
+  image: index.docker.io/library/redis@sha256:558d0845026fe0bf091a00c0ad647ffacf9df385d780d433ca70661f7276f834
+kind: ImagesLock

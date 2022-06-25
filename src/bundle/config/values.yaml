@@ -1,0 +1,5 @@
+#@data/values
+---
+service:
+  #! Argo CD service type
+  type: ClusterIP
