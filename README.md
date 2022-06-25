@@ -4,7 +4,7 @@ This project provides a [Carvel package](https://carvel.dev/kapp-controller/docs
 
 ## Components
 
-* argocd
+* argo-cd
 
 ## Configuration
 
