@@ -9,12 +9,12 @@ images:
           url: ghcr.io/dexidp/dex:v2.30.2
   image: ghcr.io/dexidp/dex@sha256:27cf2e8644f2ea1ebc6de711b0ace4b5ee2d1f442e148eabbaa8c68308062475
 - annotations:
-    kbld.carvel.dev/id: quay.io/argoproj/argocd:v2.4.2
+    kbld.carvel.dev/id: quay.io/argoproj/argocd:v2.4.6
     kbld.carvel.dev/origins: |
       - resolved:
-          tag: v2.4.2
-          url: quay.io/argoproj/argocd:v2.4.2
-  image: quay.io/argoproj/argocd@sha256:dd880e1334c177daee70686b7948b8c9b480ffff4e5e94182d825b3b0b9ddf12
+          tag: v2.4.6
+          url: quay.io/argoproj/argocd:v2.4.6
+  image: quay.io/argoproj/argocd@sha256:a0a6f3974427c826140b020a483181626e1dcf7280ae6eae2bce48e1a13e7577
 - annotations:
     kbld.carvel.dev/id: redis:7.0.0-alpine
     kbld.carvel.dev/origins: |

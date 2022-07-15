@@ -1,5 +1,6 @@
 #@data/values
 ---
+namespace: argocd
 service:
   #! Argo CD service type
   type: ClusterIP
